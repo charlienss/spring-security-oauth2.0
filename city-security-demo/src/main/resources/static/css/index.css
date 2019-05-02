@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: url("../images/back2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login {
+    position: relative;
+    width: 400px;
+    height: 375px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 40px auto;
+    border: 1px #0153B7 solid;
+}
+
+.cotent {
+    font-family: 微软雅黑;
+    font-size: 15px;
+
+}
+
+.cotent form {
+
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 75px;
+}
+
+.cotent form .denglu {
+
+    margin-top: 12px;
+    float: right;
+    width: 260px;
+}
+
+.cotent form input {
+    width: 260px;
+}
+
+.yanzheng {
+    margin-left: 26px;
+    width: 100px !important;
+}
+
+.yanzheng .wordyan {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -25px;
+
+}
+
+.yanzheng img {
+    margin-top: -26px;
+    margin-left: 150px;
+    display: block;
+}
+
+.rememberMe {
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.rememberMe input {
+    float: left;
+}
+
+.rememberMe .rem {
+    color: #2C7EF7;
+    margin-left: 10px;
+
+}
+
+/*第三方登录方式*/
+.otherLogin {
+    margin-top: 300px;
+    margin-left: 74px;
+}
+
+.otherLogin .mobileLogin {
+    cursor: pointer;
+}
+.otherLogin .qitdenglu{
+    margin-left: 100px;
+}
+
+.otherLogin .thirdLogin{
+    margin-left: 15px;
+}
+
+.otherLogin .thirdLogin img {
+    cursor: pointer;
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+/*注册页面的设计*/
+

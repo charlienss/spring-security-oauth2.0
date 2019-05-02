@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机短信登录页面</title>
+    <link rel="stylesheet" href="../static/css/sms.css">
+    <script type=”text/javascript” src="../static/js/jquery-3.1.1.js"></script>
+
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script type=”text/javascript” src="../static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!--登录系统的界面-->
+<div class="background">
+
+    <!--登录框-->
+    <div class="login">
+        <!--表单区间-->
+        <div class="cotent">
+            <form method="post" href="/authentication/mobile">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><span class="glyphicon glyphicon-user"
+                                                          aria-hidden="true"></span>&nbsp;手机号码</label>
+                    <input name="mobile" type="text" value="123456789" class="form-control" id="exampleInputEmail1" placeholder="请输入手机号码">
+                </div>
+                <div class="yanzheng">
+                    <div class="wordyan"><label>验证码:</label></div>
+                    <span><input type="text" class="form-control yanzheng" name="smsCode" ></span>
+                    <div>
+                        <a href="/code/sms?mobile=123456789" class="btn btn-info mobileYanZheng">
+                            获取验证码
+                        </a>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary denglu">登录</button>
+            </form>
+        </div>
+        <!--下面的区间 包括第三方登录和短信验证-->
+        <div class="otherLogin">
+            <label>
+                <a href="/page/login" class="mobileLogin">返回标准登录页</a>
+            </label>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
