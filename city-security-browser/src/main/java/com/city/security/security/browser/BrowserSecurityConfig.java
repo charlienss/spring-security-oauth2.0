@@ -27,7 +27,7 @@ import org.springframework.social.security.SpringSocialConfigurer;
 import javax.sql.DataSource;
 
 @Configuration
-public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
+public class  BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
 
     @Autowired

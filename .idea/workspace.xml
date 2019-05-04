@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93a6dec-f06e-4648-bc2c-51faf43afd29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAccessGrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAccessGrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,13 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TimeAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/aspect/TimeAspect.java">
+      <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -116,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -216,7 +204,6 @@
         <option value="$PROJECT_DIR$/city-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/authorize/CityAuthorizeConfigManager.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoAuthorizeConifgProvider.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" />
@@ -228,6 +215,7 @@
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -934,7 +922,7 @@
       <workItem from="1556802220114" duration="3352000" />
       <workItem from="1556961373757" duration="14000" />
       <workItem from="1556961436708" duration="71000" />
-      <workItem from="1556979422834" duration="1608000" />
+      <workItem from="1556979422834" duration="1718000" />
     </task>
     <servers />
   </component>
@@ -953,7 +941,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218691000" />
+    <option name="totallyTimeSpent" value="218801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,7 +953,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="77" width="1508" height="796" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -985,10 +974,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20904836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6778917" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.24206896" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.35924932" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -1083,13 +1072,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQServiceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/api/Weixin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1447,6 +1429,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
