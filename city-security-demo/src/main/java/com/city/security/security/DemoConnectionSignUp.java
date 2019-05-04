@@ -8,7 +8,6 @@ import org.springframework.social.connect.ConnectionSignUp;
 import org.springframework.stereotype.Component;
 
 /**
- * @author zhailiang
  *
  */
 @Component

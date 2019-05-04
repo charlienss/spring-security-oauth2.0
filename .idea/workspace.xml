@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d93a6dec-f06e-4648-bc2c-51faf43afd29" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAccessGrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAccessGrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,92 +29,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
+      <file leaf-file-name="TimeAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/aspect/TimeAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+            <state>
+              <folding>
+                <element signature="e#0#1122#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties">
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/configer/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+            <state>
+              <folding>
+                <element signature="e#0#1385#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TimeInterecepter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/interecepter/TimeInterecepter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="51" selection-end-column="25" />
+            <state>
+              <folding>
+                <element signature="e#0#1733#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-demo/pom.xml">
+      <file leaf-file-name="TimeFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/TimeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="91" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/serviece/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-browser/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowserSecurityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="77" column="29" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="success.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/templates/success.html">
+      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/exception/ControllerExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserNotExistException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/exception/UserNotExistException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/UserControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -163,13 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinServiceProvider.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinOAuth2Template.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/api/QQ.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQAdapter.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQServiceProvider.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/api/QQImpl.java" />
@@ -193,7 +200,6 @@
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/SocialConfig.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/SocialConfig.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/ImoocConnectView.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/config/QQAutoConfig.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/binding.html" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/CityConnectView.java" />
@@ -202,8 +208,6 @@
         <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/controller/PageController.java" />
         <option value="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/session/CityExpiredSessionStrategy.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/failure.html" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java" />
-        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SessionProperties.java" />
         <option value="$PROJECT_DIR$/city-security-browser/pom.xml" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCode.java" />
@@ -213,6 +217,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/authorize/CityAuthorizeConfigManager.java" />
+        <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoAuthorizeConifgProvider.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAccessGrant.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java" />
+        <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" />
       </list>
     </option>
@@ -249,19 +263,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="423" />
-    <option name="y" value="90" />
-    <option name="width" value="1885" />
-    <option name="height" value="995" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="136" />
+    <option name="y" value="273" />
+    <option name="width" value="1818" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,6 +319,216 @@
             <path>
               <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="qq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="qq" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="qq" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="qq" type="462c0819:PsiDirectoryNode" />
+              <item name="connet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="connect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,6 +570,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="city" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
@@ -369,7 +613,52 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="city" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="respository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
               <item name="serviece" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="serviece" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
@@ -381,10 +670,80 @@
               <item name="city" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="configer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="interecepter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -402,7 +761,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../码云安全项目管理/oauth-sso" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -414,20 +773,21 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.city.security.security.core.social.qq.config" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.city.security.security" />
       <recent name="com.city.security.security.core.social" />
       <recent name="com.city.security.security.core.properties" />
       <recent name="com.city.security.security.core.validate.code" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intellij02\gitHub项目管理\主要City开源项目的管理\spring-security-oauth2.0\city-security-core\src\main\java\com\city\security\security\core" />
+      <recent name="E:\intellij02\gitHub项目管理\主要City开源项目的管理\spring-security-oauth2.0\city-security-browser\src\main\java\com\city\security\security\browser" />
       <recent name="E:\intellij06\码云项目管理\citysecurity\city-security-core\src\main\java\com\city\security\security\core\properties" />
       <recent name="E:\intellij06\码云项目管理\citysecurity\city-security-core\src\main\java\com\city\security\security\core\social" />
       <recent name="E:\intellij06\码云项目管理\citysecurity\city-security-demo\src\main\resources\templates" />
-      <recent name="E:\intellij06\码云项目管理\citysecurity\city-security-demo\src\main\java\com\city\security" />
-      <recent name="E:\intellij06\码云项目管理\citysecurity\city-security-core\src\main\java\com\city\security\security\core\validate\code\volid" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -574,6 +934,7 @@
       <workItem from="1556802220114" duration="3352000" />
       <workItem from="1556961373757" duration="14000" />
       <workItem from="1556961436708" duration="71000" />
+      <workItem from="1556979422834" duration="1608000" />
     </task>
     <servers />
   </component>
@@ -592,7 +953,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217083000" />
+    <option name="totallyTimeSpent" value="218691000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,8 +965,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="358" y="77" width="1508" height="796" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -619,20 +979,20 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60457516" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.27829313" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20937042" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20904836" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.363941" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.24206896" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.27829313" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -643,10 +1003,9 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8096828" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8096828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -671,8 +1030,9 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.60457516" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.60457516" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,100 +1083,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="82" column="33" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-web/1.1.4.RELEASE/spring-social-web-1.1.4.RELEASE.jar!/org/springframework/social/connect/web/ConnectController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="127" column="36" lean-forward="true" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/CityConnectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/CityConnectionStatusView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/templates/binding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/api/QQImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/api/QQUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/api/QQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/config/QQAutoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="45" column="53" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQOAuth2Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/qq/connet/QQServiceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
+        <state relative-caret-position="76">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
@@ -844,176 +1113,250 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/config/WeixinAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinOAuth2Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/QQProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAccessGrant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/WeixinProperties.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinOAuth2Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/weixin/connect/WeixinServiceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="197">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/LoginType.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/CityConnectionStatusView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="95">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar!/org/springframework/boot/context/embedded/tomcat/TomcatEmbeddedServletContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar!/org/springframework/boot/context/embedded/tomcat/TomcatEmbeddedWebappClassLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar!/org/springframework/boot/context/embedded/tomcat/TomcatEmbeddedServletContainerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="459" column="43" selection-start-line="459" selection-start-column="17" selection-end-line="459" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar!/org/springframework/boot/context/embedded/tomcat/TomcatEmbeddedContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/session/CityExpiredSessionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/templates/failure.html">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/CityConnectView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/controller/PageController.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/CitySpringSocialConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="36" />
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityConstants.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/social/MyConnectionSignUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SmsCodeProperties.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/sms/DefaultSmsCodeSend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SecurityProperties.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/sms/SmsCodeSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/SessionProperties.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ImageCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/BroeserProperties.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/SmsCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/properties/CeShi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ImageCode.java">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeBeanConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="95">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/templates/success.html">
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/code/DemoImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/config/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/config/MyWebMvcConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/config/SecurityCoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/respository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoAuthorizeConifgProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/security/DemoConnectionSignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/serviece/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1024,59 +1367,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-browser/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="76">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/aspect/TimeAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/configer/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/interecepter/TimeInterecepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/web/TimeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/exception/ControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/exception/UserNotExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/test/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,6 @@ import org.springframework.web.context.request.ServletWebRequest;
 
 /**
  * 短信验证码生成器
- * create by charly 3/8
  */
 @Component("smsCodeGenerator")
 public class SmsCodeGenerator implements ValidateCodeGenerator {

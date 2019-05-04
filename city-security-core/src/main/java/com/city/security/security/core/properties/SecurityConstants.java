@@ -4,7 +4,6 @@
 package com.city.security.security.core.properties;
 
 /**
- * @author zhailiang
  *
  */
 public interface SecurityConstants {
