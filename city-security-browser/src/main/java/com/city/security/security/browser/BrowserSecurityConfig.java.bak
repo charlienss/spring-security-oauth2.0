@@ -2,7 +2,6 @@ package com.city.security.security.browser;
 
 import com.city.security.security.browser.session.CityExpiredSessionStrategy;
 import com.city.security.security.core.authentication.mobile.SmsCodeAuthenticationSecurityConfig;
-import com.city.security.security.core.authorize.AuthorizeConfigManager;
 import com.city.security.security.core.properties.SecurityConstants;
 import com.city.security.security.core.properties.SecurityProperties;
 import com.city.security.security.core.validate.code.SmsCodeFilter;
@@ -51,9 +50,6 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private SpringSocialConfigurer citySocialSecurityConfig;
-
-    @Autowired
-    private AuthorizeConfigManager authorizeConfigManager;
 
 
 
@@ -137,28 +133,28 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
         .expiredSessionStrategy(new CityExpiredSessionStrategy())
         .and()
          .and()
-//        .authorizeRequests() //请求需要认证
-//         //"/static/**"表示所有用户均可访问的资源 必须加上静态访问的权限 不然页面会显示不全面
-//         .antMatchers(
-//                 "/static/**","/page/login","/page/failure","/page/mobilePage",
-//                 "/code/image","/code/sms","/authentication/mobile",securityProperties.getBrower().getSignUPUrl(),
-//                 "/user/register","/page/registerPage","/page/invalidSession"
-//
-//         ).permitAll()
-//   //这里是硬编码权限 只限于简单的用户权限 这里的角色名称严格区分大小写
-//   //这里可以指定HttpMethod  如HttpMethod.GET,
-//      /**
-//      * 权限表达式的运用:
-//      *  .antMatchers("/user/**").access("hasRole('ADMIN') and hasIpAddress('XXXXXX')")
-//       *  .antMatchers("/user/**").hasRole("ADMIN")
-//      */
-//   .antMatchers("/user/**").hasRole("ADMIN")        .anyRequest()     //所有请求
-//        .authenticated() //都需身份认证
-//        .and()
+        .authorizeRequests() //请求需要认证
+         //"/static/**"表示所有用户均可访问的资源 必须加上静态访问的权限 不然页面会显示不全面
+         .antMatchers(
+                 "/static/**","/page/login","/page/failure","/page/mobilePage",
+                 "/code/image","/code/sms","/authentication/mobile",securityProperties.getBrower().getSignUPUrl(),
+                 "/user/register","/page/registerPage","/page/invalidSession"
+
+         ).permitAll()
+   //这里是硬编码权限 只限于简单的用户权限 这里的角色名称严格区分大小写
+   //这里可以指定HttpMethod  如HttpMethod.GET,
+      /**
+      * 权限表达式的运用:
+      *  .antMatchers("/user/**").access("hasRole('ADMIN') and hasIpAddress('XXXXXX')")
+      */
+    .antMatchers("/user/**").hasRole("ADMIN")
+        .anyRequest()     //所有请求
+        .authenticated() //都需身份认证
+        .and()
         .csrf().disable() //跨站伪造请求禁用
 
         ;
-        authorizeConfigManager.config(http.authorizeRequests());
+
 
     }
 
