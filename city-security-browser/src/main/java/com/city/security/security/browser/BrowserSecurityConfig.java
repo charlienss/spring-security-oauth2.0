@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -105,45 +106,48 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
          * 不然会进入一直重定向
          */
         http
-         .apply(smsAuthenticationSecurityConfig)
-          .and()
-           .apply(citySocialSecurityConfig)//社交登录
-          .and()
+                .apply(smsAuthenticationSecurityConfig)
+                .and()
+                .apply(citySocialSecurityConfig)//社交登录
+                .and()
 //        .addFilterBefore(smsCodeFilter, UsernamePasswordAuthenticationFilter.class)
-        .addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
-        .formLogin()
+                .addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
+                .formLogin()
 
-        .loginPage("/page/login")//允许登录的界面
-        .loginProcessingUrl("/authentication/form")//请求验证的接口
-        .defaultSuccessUrl("/page/success")//成功的默认导向页
-         .failureForwardUrl("/page/failure")
+                .loginPage("/page/login")//允许登录的界面
+                .loginProcessingUrl("/authentication/form")//请求验证的接口
+                .defaultSuccessUrl("/page/success")//成功的默认导向页
+                .failureForwardUrl("/page/failure")
 //       .successHandler(cityAuthenticationSuccessHandler) //请求成功的处理类
 //        .failureHandler(cityAuthenticationFailureHandler)
-        .and()
-        .rememberMe()  //记住我的功能
-        .tokenRepository(persistentTokenRepository())
-        .tokenValiditySeconds(securityProperties.getBrower().getRememberMeSeconds())
-        .userDetailsService(userDetailsService)
-        .and()
-      .sessionManagement()
-         .invalidSessionUrl(securityProperties.getBrower().getSession().getSessionInvalidUrl())//session失效的地址
-         .maximumSessions(securityProperties.getBrower().getSession().getMaximumSessions()) //设置session的最大数量 按用户名来判断的
-          .maxSessionsPreventsLogin(true)//当达到session的最大数量时候阻止其他的登录,即踢下线
-        .expiredSessionStrategy(new CityExpiredSessionStrategy())
-        .and()
-         .and()
-        .authorizeRequests() //请求需要认证
-         //"/static/**"表示所有用户均可访问的资源 必须加上静态访问的权限 不然页面会显示不全面
-         .antMatchers(
-                 "/static/**","/page/login","/page/failure","/page/mobilePage",
-                 "/code/image","/code/sms","/authentication/mobile",securityProperties.getBrower().getSignUPUrl(),
-                 "/user/register","/page/registerPage","/page/invalidSession"
+                .and()
+                .rememberMe()  //记住我的功能
+                .tokenRepository(persistentTokenRepository())
+                .tokenValiditySeconds(securityProperties.getBrower().getRememberMeSeconds())
+                .userDetailsService(userDetailsService)
+                .and()
+                .sessionManagement()
+                .invalidSessionUrl(securityProperties.getBrower().getSession().getSessionInvalidUrl())//session失效的地址
+                .maximumSessions(securityProperties.getBrower().getSession().getMaximumSessions()) //设置session的最大数量 按用户名来判断的
+                .maxSessionsPreventsLogin(true)//当达到session的最大数量时候阻止其他的登录,即踢下线
+                .expiredSessionStrategy(new CityExpiredSessionStrategy())
+                .and()
+                .and()
+                .authorizeRequests() //请求需要认证
+                //"/static/**"表示所有用户均可访问的资源 必须加上静态访问的权限 不然页面会显示不全面
+                .antMatchers(
+                        "/static/**","/page/login","/page/failure","/page/mobilePage",
+                        "/code/image","/code/sms","/authentication/mobile",securityProperties.getBrower().getSignUPUrl(),
+                        "/user/register","/page/registerPage","/page/invalidSession"
 
-         ).permitAll()
-        .anyRequest()     //所有请求
-        .authenticated() //都需身份认证
-        .and()
-        .csrf().disable() //跨站伪造请求禁用
+                ).permitAll()
+                //这里是硬编码权限 只限于简单的用户权限 这里的角色名称严格区分大小写
+                //这里可以指定HttpMethod  如HttpMethod.GET,
+                .antMatchers("/user/**").hasRole("ADMIN")
+                .anyRequest()     //所有请求
+                .authenticated() //都需身份认证
+                .and()
+                .csrf().disable() //跨站伪造请求禁用
 
         ;
 

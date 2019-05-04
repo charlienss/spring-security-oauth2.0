@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.city.security;
 
@@ -24,13 +24,13 @@ import org.springframework.stereotype.Component;
 public class MyUserDetailsService implements UserDetailsService, SocialUserDetailsService {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
-	
+
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see org.springframework.security.core.userdetails.UserDetailsService#
 	 * loadUserByUsername(java.lang.String)
 	 */
@@ -54,9 +54,10 @@ public class MyUserDetailsService implements UserDetailsService, SocialUserDetai
 		 */
 		String password = passwordEncoder.encode("123456");
 		logger.info("数据库密码是:"+password);
+		//注意这里配置角色的时候需要加ROLE_前缀
 		return new SocialUser(userId, password,
 				true, true, true, true,
-				AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+				AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_ADMIN"));
 	}
 
 }

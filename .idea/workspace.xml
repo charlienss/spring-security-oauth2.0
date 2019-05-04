@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d93a6dec-f06e-4648-bc2c-51faf43afd29" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-browser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-browser/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ImageCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-security-demo/target/classes/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/city-security-demo/target/classes/templates/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,17 +24,17 @@
       <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="131" column="65" lean-forward="true" selection-start-line="127" selection-start-column="6" selection-end-line="131" selection-end-column="65" />
+            <state relative-caret-position="571">
+              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+            <state relative-caret-position="463">
+              <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -51,7 +42,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
+            <state relative-caret-position="893">
               <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="51" selection-end-column="25" />
             </state>
           </provider>
@@ -78,7 +69,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city-security-browser/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="418">
               <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
@@ -87,8 +78,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city-security-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="836">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,17 +87,17 @@
       <file leaf-file-name="BrowserSecurityController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="950">
               <caret line="77" column="29" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="571">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -218,11 +209,11 @@
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ValidateCode.java" />
         <option value="$PROJECT_DIR$/city-security-core/src/main/java/com/city/security/security/core/validate/code/ImageCode.java" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/templates/success.html" />
-        <option value="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/city-security-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java" />
       </list>
     </option>
   </component>
@@ -261,8 +252,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="500" />
     <option name="y" value="15" />
-    <option name="width" value="1883" />
-    <option name="height" value="994" />
+    <option name="width" value="1885" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -270,42 +261,43 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-browser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -313,39 +305,34 @@
               <item name="browser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
-              <item name="city-security-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -353,8 +340,8 @@
               <item name="city" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -363,8 +350,19 @@
               <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -374,8 +372,8 @@
               <item name="serviece" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2.0" type="462c0819:PsiDirectoryNode" />
               <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -383,28 +381,10 @@
               <item name="city" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
-              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citysecurity(图形验证码修改前)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citysecurity(图形验证码修改前)" type="462c0819:PsiDirectoryNode" />
-              <item name="city-security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -592,6 +572,8 @@
       <workItem from="1554252057351" duration="7124000" />
       <workItem from="1554379844101" duration="2793000" />
       <workItem from="1556802220114" duration="3352000" />
+      <workItem from="1556961373757" duration="14000" />
+      <workItem from="1556961436708" duration="71000" />
     </task>
     <servers />
   </component>
@@ -610,7 +592,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216998000" />
+    <option name="totallyTimeSpent" value="217083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,20 +619,20 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60457516" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.27829313" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20937042" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20937042" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.23659517" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.363941" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.27829313" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1018,9 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,7 +1026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
+        <state relative-caret-position="893">
           <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
@@ -1061,43 +1040,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-browser/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="418">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="836">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="950">
           <caret line="77" column="29" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="131" column="65" lean-forward="true" selection-start-line="127" selection-start-column="6" selection-end-line="131" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+        <state relative-caret-position="463">
+          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-browser/src/main/java/com/city/security/security/browser/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-security-demo/src/main/java/com/city/security/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
