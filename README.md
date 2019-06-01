@@ -1,9 +1,11 @@
 # Spring-Security-Oauth2.0浏览器端的登录项目分享
-	https://img.shields.io/github/issues/fengcharly/spring-security-oauth2.0.svg
-	https://img.shields.io/github/forks/fengcharly/spring-security-oauth2.0.svg
-		https://img.shields.io/github/stars/fengcharly/spring-security-oauth2.0.svg
-		https://img.shields.io/github/license/fengcharly/spring-security-oauth2.0.svg
-			https://img.shields.io/twitter/url/https/github.com%2Ffengcharly%2Fspring-security-oauth2.0.svg
+<img src="https://img.shields.io/github/issues/fengcharly/spring-security-oauth2.0.svg">
+<img src="https://img.shields.io/github/forks/fengcharly/spring-security-oauth2.0.svg">
+<img src="https://img.shields.io/github/stars/fengcharly/spring-security-oauth2.0.svg">
+<img src="https://img.shields.io/github/license/fengcharly/spring-security-oauth2.0.svg">
+<img src="https://img.shields.io/twitter/url/https/github.com%2Ffengcharly%2Fspring-security-oauth2.0.svg">
+<img src="">
+			
 ### 1.简介
 
 ​	CitySecurity项目为正式上线项目做得一个Demo,这里主要介绍浏览器端的登录.本项目使用了SpringSecurity实现表单安全登录、图形验证的校验、记住我时长控制机制、第三方登录.比较独特的一点是集合SpringSocial做第三方登录的支持(此处本人测试自用app-id和app-secret,如果需要测试可以帮忙点下星发邮件给我,会尽快给与回复,谢谢支持!).该方案是目前本人觉得比较完善的一套安全登录的方式,前端页面设计也是本人制作,比较简洁,当然你也可以用自己的一套比较漂亮的UI,此处仅供参考,有什么好的建议都可以给予反馈.该框架在[Spring官方网站](https://spring.io/projects)上也有相关的文档介绍,喜欢本项目的伙伴可以给我点下星,支持一下,当然可以与我交流,共同学习,共同进步!
