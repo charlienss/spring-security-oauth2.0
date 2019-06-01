@@ -1,6 +1,6 @@
 # Spring-Security-Oauth2.0浏览器端的登录项目分享
 
-![](https://img.shields.io/badge/spring--social--security-1.1.6.RELEASE-brightgreen.svg)![](https://img.shields.io/github/forks/fengcharly/spring-security-oauth2.0.svg)![](https://img.shields.io/github/stars/fengcharly/spring-security-oauth2.0.svg)![![](https://img.shields.io/badge/thymeleaf-3.0.2.RELEASE-brightgreen.svg)](https://img.shields.io/badge/springboot-1.0.0--SNAPSHOT-blue.svg)![](https://img.shields.io/badge/thymeleaf-3.0.2.RELEASE-brightgreen.svg)![](https://img.shields.io/twitter/url/https/github.com%2Ffengcharly%2Fspring-security-oauth2.0.svg)
+![](https://img.shields.io/badge/spring--social--security-1.1.6.RELEASE-brightgreen.svg) ![](https://img.shields.io/github/forks/fengcharly/spring-security-oauth2.0.svg) ![](https://img.shields.io/github/stars/fengcharly/spring-security-oauth2.0.svg) ![![](https://img.shields.io/badge/thymeleaf-3.0.2.RELEASE-brightgreen.svg)](https://img.shields.io/badge/springboot-1.0.0--SNAPSHOT-blue.svg) ![](https://img.shields.io/badge/thymeleaf-3.0.2.RELEASE-brightgreen.svg) ![](https://img.shields.io/twitter/url/https/github.com%2Ffengcharly%2Fspring-security-oauth2.0.svg)
 
 ### 1.简介
 
