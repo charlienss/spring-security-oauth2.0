@@ -150,7 +150,7 @@ spring.session.store-type=none
 
 ### 5.社交登录演示
 
-![](https://img2018.cnblogs.com/blog/1373932/201905/1373932-20190502222014469-1337155623.gif)
+![uwt1Wd.gif](https://s2.ax1x.com/2019/10/03/uwt1Wd.gif)
 
 ### 6.项目git地址
 
