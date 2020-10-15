@@ -121,7 +121,7 @@ private SocialUserDetails buildUser(String userId) {
 
 ### 4.Session集群测试
 
-​	本处可用的存取Session的方式有很多,该项目使用常见的菲关系型数据库Redis来做相应的集群环境下的session的存储,主要配置:
+​	本处可用的存取Session的方式有很多,该项目使用常见的非关系型数据库Redis来做相应的集群环境下的session的存储,主要配置:
 
 ```java
 .sessionManagement()
